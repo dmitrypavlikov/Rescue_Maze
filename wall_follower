@@ -39,7 +39,7 @@ def main():
 
 		left_hand = round((ranges[90] + ranges[92] + ranges[88])/3)
 		nose = round((ranges[0] + ranges[358] + ranges[2])/3)
-		print(left_hand)
+		#print(left_hand)
 		
 		error =((500 - left_hand)/650)
 		if 0 <= nose <= 500:
